@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible"content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>Document</title>
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+           <a href="" class="nav__logo">
+            Kaan
+           </a>
+
+           <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list grid">
+                  <li class="nav__item">
+                    <a href="#home" class="nav__link ctive-link">
+                        <i class='bx bx-home' ></i>Anasayfa
+                    </a>
+                  </li>
+                  
+                  <li class="nav__item">
+                    <a href="#skills" class="nav__link">
+                        <i class='bx bx-briefcase' ></i>Yetenekler
+                    </a>
+                  </li>
+                  
+                  <li class="nav__item">
+                    <a href="#qualification" class="nav__link">
+                        <i class='bx bx-book' ></i> Eğitim&İş
+                    </a>
+                  </li>
+                  
+                  <li class="nav__item">
+                    <a href="#services" class="nav__link">
+                        <i class='bx bx-briefcase' ></i> Hobiler
+                    </a>
+                  </li>
+                  
+                  <li class="nav__item">
+                    <a href="#projects" class="nav__link">
+                        <i class='bx bx-image' ></i>Projeler
+                    </a>
+                  </li>
+
+                  <li class="nav__item">
+                    <a href="#contact" class="nav__link">
+                        <i class='bx bx-conversation' ></i>İletişim
+                    </a>
+                  </li>
+               </ul>
+
+               <div class="nav__close" id="nav-close">
+                <i class='bx bx-x'></i>
+               </div>
+           </div>
+           <div class="nav__buttons">
+            <!--Tema Değişiklik Butonu-->
+            <i class='bx bxs-moon' id="theme-button"></i>
+           
+            
+            <!--Geçiş Düğmesi-->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu' ></i>
+              </div>
+           </div>
+        </nav>
+    </header>
+
+    <main class="main">
+      <section class="home section" id="home">
+        <div class="home__container container grid section__border">
+          <div class="home__data grid">
+            <h1 class="home__title">
+              Merhaba Ben Kaan 
+              Frontend Developer'ım
+            </h1>
+            <div class="home__blob grid">
+              <div class="home__perfil">
+                <img src="WhatsApp Görsel 2024-02-13 saat 12.40.45_367aa012.jpg" alt="kişisel fotoğraf">
+              </div>
+            </div>
+            <ul class="home__social">
+              <a href="https://www.linkedin.com/in/kaan-g%C3%BC%C3%A7l%C3%BC-126a232a6/" target="_blank" class="home__social-link">
+                <i class='bx bxl-linkedin-square'></i>
+              </a>
+              <a href="https://github.com/kguclu1054" target="_blank" class="home__social-link">
+                <i class='bx bxl-github' ></i>
+              </a>
+              <a href="https://www.instagram.com/kaan_gclu/" target="_blank" class="home__social-link">
+                <i class='bx bxl-instagram-alt' ></i>
+              </a>
+            </ul>
+          </div>
+  
+           <div class="home__info">
+            <div>
+              <h3 class="home__info-title">
+                Biyografi
+              </h3>
+
+              <p class="home__info-description">
+                Merhaba ben Kaan, 20 yaşındayım Frontend Developer'ım Ostim Teknik Üniversite Biyomedikal Cihaz teknolojisi mezunuyum, şuanda da Anadolu Üniversitesi Bilgisayar Programcılığı 1.sınıf öğrencisiyim.
+              </p>
+            </div>
+            <div class="home__info">
+              <div>
+                <h3 class="home__info-title">
+                  İletişim
+                </h3>
+  
+                <p class="home__info-description">
+                  Kaan, Güçlü <br>
+                  kguclu1054@gmail.com <br>
+                   <br>
+                </p>
+              </div>
+              <div class="home__info">
+                <div>
+                  <h3 class="home__info-title">
+                    Yaptığım İşler
+                  </h3>
+                   <p class="home__info-description">Website Design <br>
+                   Photoshop <br>
+                   Making a project with Arduino <br>
+                   </p>
+                  <p class="home__info-description">
+                    
+                  </p>
+                  
+                  <div class="home__info">
+                  </div>
+                  
+                  <div class="home__info">
+                     <div>
+                      <br>
+                      <br>
+                      
+                        <h3 class="home__info-title">
+                            Deneyim Yılı
+                        </h3>
+                        <p class="home__info-number">
+                            01+
+                        </p>
+                     </div>
+
+                     <div>
+                      <h3 class="home__info-title">
+                          Tamamlanan proje sayısı
+                      </h3>
+                      <p class="home__info-number">
+                           10+
+                      </p>
+                   </div>
+
+                   <div>
+                    <h3 class="home__info-title">
+                       Çalıştığım Şirketler
+                    </h3>
+                    <p class="home__info-number">
+                       03+
+                    </p>
+                 </div>
+
+
+                  </div>
+                </div>
+           </div>
+           
+      </section>
+
+    <section class="skills section" id="skills">
+       <h2 class="section__title">Yetenekler</h2>
+       <span class="section__subtitle">Benim favori yeteneklerim</span>
+
+       <div class="skills__container container grid section__border">
+        <div class="skills__content">
+          <h3 class="skills__title">
+            <i class='bx bx-bracket'></i> Frontend Developer
+          </h3>
+          <div class="skills__info">
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="html5.2.png" alt="yetenekler">
+              </div>
+
+              <h3 class="skills__name">HTML</h3>
+              <span class="skills__subtitle">İyi Seviye</span>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="css3.png" alt="yetenekler">
+              </div>
+
+              <h3 class="skills__name">CSS</h3>
+              <span class="skills__subtitle">Orta Seviye</span>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="js2.png" alt="yetenekler">
+              </div>
+
+              <h3 class="skills__name">Javascript</h3>
+              <span class="skills__subtitle">Orta Seviye</span>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="react.png" alt="yetenekler">
+              </div>
+
+              <h3 class="skills__name">React</h3>
+              <span class="skills__subtitle">Temel</span>
+            </div>
+
+            <div class="skills__data">
+              <div class="skills__blob">
+                <img src="git.png" alt="yetenekler">
+              </div>
+
+              <h3 class="skills__name">Git</h3>
+              <span class="skills__subtitle">Temel</span>
+            </div>
+          
+          </div>
+        </div>
+       </div>
+    </section>
+    <section class="qualification section" id="qualification">
+      <h2 class="section__title">Deneyim & Eğitim</h2>
+      <span class="section__subtitle">Okuduğum okullar</span>
+
+      <div class="qualification__container container grid section__border">
+        <div class="qualification__content">
+          <h3 class="qualification__title">
+            <i class='bx bx-edit'></i> Eğitimim
+          </h3>
+
+          <div class="qualification__info">
+            <div>
+              <h3 class="qualification__name">
+                Biyomedikal Cihaz Teknolojisi
+              </h3>
+              <span class="qualification__country">Ostim Teknik Üniversitesi</span>
+              <span class="qualification__year">2021 - 2023</span>
+            </div>
+          </div>
+          <br>
+          <br>
+
+          <div class="qualification__info">
+            <div>
+              <h3 class="qualification__name">
+                 Bilgisayar Programcılığı
+              </h3>
+              <span class="qualification__country">Anadolu Üniversitesi</span>
+              <span class="qualification__year">2023-2025</span>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+
+        
+
+        <div class="qualification__content">
+          <h3 class="qualification__title">
+            <br><i class='bx bx-building-house' ></i>İş Hayatım
+          </h3>
+
+          <div class="qualification__info2">
+            <div>
+              <h3 class="qualification__name">
+                 Teknik Servis Elemanı
+              </h3>
+              <span class="qualification__country">Oruba Technology & Innovation</span>
+              <span class="qualification__year">2022-2023</span>
+            </div>
+          </div>
+
+            <div class="qualification__info2">
+              <h3 class="qualification__name">
+                Stajyer
+              </h3>
+              <span class="qualification__country">Bilkent Şehir Hastanesi</span>
+              <span class="qualification__year">2022-2023</span>
+            </div>
+
+            <div class="qualification__info2">
+              <h3 class="qualification__name">
+                KFC
+              </h3>
+              <span class="qualification__country">Antares Avm</span>
+              <span class="qualification__year">2021-2022</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section class="section section" id="services">
+      <h2 class="section__title">Hobiler</h2>
+      <span class="section__subtitle"></span>
+
+      <div class="services__container container grid section__border">
+        <div class="services__card">
+          <i class='bx bx-layout'></i>
+
+          <h2 class="services__title">
+            Tinkercad
+          </h2>
+
+          <p class="services__description">
+             Tinkercad ile 3boyutlu modelleme yapmayı <br>çok seviyorum. En sevdiğim hobilerimden birisidir.
+          </p>
+
+           <div class="services__border"></div>
+        </div>
+        
+        <div class="services__card">
+          <i class='bx bx-photo-album'></i>
+
+          <h2 class="services__title">
+            Photoshop
+          </h2>
+
+          <p class="services__description">
+             En sevdiğim hobilerimden bir diğeri ise Photoshop ile logo tasarlamak ve fotoğraflar ile oynamak.
+          </p>
+
+           <div class="services__border"></div>
+        </div>
+
+        <div class="services__card">
+          <i class='bx bxl-graphql' ></i>
+
+          <h2 class="services__title">
+            Arduino
+          </h2>
+
+          <p class="services__description">
+             Boş zamanlarımda arduino ile projeler yapmak ve geliştirmek hobilerimden birisidir.
+          </p>
+
+           <div class="services__border"></div>
+        </div>
+      </div>
+    </section>
+    <section class="projects section" id="projects">
+      <h2 class="section__title">Projeler</h2>
+      <span class="section__subtitle">En son projeler</span>
+
+      <!--<div class="container section__border">
+        <div class="projects__container">
+          <div>
+            <div class="projects__content">
+              <img src="WhatsApp Görsel 2024-02-29 saat 13.14.32_60afaab2.jpg" alt="arduino_proje1" class="projects__img">
+
+              <div>
+                <span class="projects__subtitle">Yürüyen Işık</span>
+                <h1 class="projects__title">Arduino</h1>
+
+               
+                </a> 
+              </div>
+            </div>
+
+            <div class="projects__content">
+              <img src="WhatsApp Görsel 2024-02-29 saat 13.14.32_11a5fc1e.jpg" alt="arduino_proje1" class="projects__img">
+
+              <div>
+                <span class="projects__subtitle"> Oda Sıcaklık Ölçer</span>
+                <h1 class="projects__title">Arduino</h1>
+
+              
+                </a> 
+              </div>
+            </div>
+
+            <div class="projects__content">
+              <img src="WhatsApp Görsel 2024-02-29 saat 13.14.32_25f8d168.jpg" alt="arduino_proje1" class="projects__img">
+
+              <div>
+                <span class="projects__subtitle">Alarm uygulaması</span>
+                <h1 class="projects__title">Arduino</h1>
+
+               
+                </a> 
+              </div>
+            </div>
+
+            <div class="projects__content">
+              <img src="WhatsApp Görsel 2024-02-29 saat 13.14.32_bbe5dbdf.jpg" alt="arduino_proje1" class="projects__img">
+
+              <div>
+                <span class="projects__subtitle">Potansiyometre Kullanımı</span>
+                <h1 class="projects__title">Arduino</h1>
+
+                
+                </a> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>-->
+
+    <div class="services__container container_grid section__border">
+    <div class="resimler">
+      <div class="panel active" style="background-image: url(WhatsApp\ Görsel\ 2024-02-29\ saat\ 13.14.32_60afaab2.jpg);">    <!-- Active Paneli istediğimiz Yere yazabiliriz-->
+      <h3>Yürüyen Işık</h3>
+      </div> 
+      <div class="panel"style="background-image: url('WhatsApp Görsel 2024-02-29 saat 13.14.32_25f8d168.jpg');">                                          <!-- Embed işaretsiz resim yüklenmiyor-->
+        <h3>Alarm</h3>
+      </div>
+      <div class="panel"style="background-image: url('WhatsApp Görsel 2024-03-02 saat 21.31.11_fe8cb2ad.jpg');">
+        <h3>Potansiyometre</h3>
+      </div>
+      <div class="panel"style="background-image: url('WhatsApp Görsel 2024-02-29 saat 13.14.32_11a5fc1e.jpg');">
+        <h3>Sıcaklık Ölçer</h3>
+      </div>
+      <div class="panel"style="background-image: url('WhatsApp Görsel 2024-02-29 saat 13.14.32_b2dddb4a.jpg');">
+        <h3>Trafik Işığı</h3>
+      </div>
+    </div>
+   </div> 
+  </div>
+   
+    <section class="contact section" id="contact">
+      <h2 class="section__title">Benimle İletişime Geçin</h2>
+       <span class="section__subtitle"></span>
+
+       <div class="contact__container container grid section__border">
+        <div class="contact__content">
+          <h3 class="contact__title">
+            <i class='bx bx-conversation'>Benimle Konuş</i>
+          </h3>
+
+          <div class="contact__info">
+            <div class="contact__data">
+              <span class="contact__data-title">Email</span>
+              <span class="contact__data-info">Kguclu1054@gmail.com</span>
+            </div>
+
+            <div class="contact__data">
+              <span class="contact__data-title">Instagram</span>
+              <span class="contact__data-info">@kaan_gclu</span>
+              
+              <a href="https://www.instagram.com/kaan_gclu/" target="_blank" class="contact__button">
+                Bana yaz <i class='bx bx-right-arrow-alt' ></i>
+              </a>
+            </div>
+
+            <div class="contact__data">
+              <span class="contact__data-title">Messenger</span>
+              <span class="contact__data-info" >Kaan Güçlü</span>
+              
+              <a href="https://www.facebook.com/kaan.guclu.581730?locale=tr_TR" target="_blank" class="contact__button">
+                Bana yaz <i class='bx bx-right-arrow-alt' ></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+        <div class="contact__content">
+          <h3 class="contact__title">
+            <i class='bx bx-mail-send' >Öneri ve İstekler İçin </i>
+          </h3>
+
+          <form action="" class="contact_form" id="contact-form">
+            <div class="contact__form-div">
+              <label class="contact__form-tag">Ad-Soyad</label>
+              <input type="text" name="user_name" required placeholder="Ad-Soyad Giriniz" class="contact__form-input" id="contact-name">
+            </div>
+
+            <div class="contact__form-div">
+              <label class="contact__form-tag">Mail</label>
+              <input type="text" name="user_email" required placeholder="Mailinizi Giriniz" class="contact__form-input" id="contact-email">
+            </div>
+
+            <div class="contact__form-div contact-form-area">
+              <label class="contact__form-tag">Öneri-Şikayet</label>
+              <textarea name="user_project" placeholder="Öneri ve Şikayetleri Giriniz" id="contact-project" class="contact__form-input"></textarea>
+            </div>
+
+            <p class="contact__message" id="contact-message"></p>
+
+            <button type="submit" class="contact__button">
+                Gönder <i class='bx bx-right-top-arrow-circle' ></i>
+            </button>
+          </form>
+        </div>
+       </div>
+    </section>
+      
+  </main>
+
+    <footer class="footer">
+        <div class="footer__container-container">
+          <h1 class="footer__title">Kaan</h1>
+          <p class="footer_p">Frontend Developer</p>
+
+          <ul class="footer__list">
+            <li>
+              <a href="#home" class="footer__link">Anasayfa</a>
+            </li>
+            
+            <li>
+              <a href="#skills" class="footer__link">Yetenekler</a>
+            </li>
+            
+            <li>
+              <a href="#projects" class="footer__link">Projeler</a>
+            </li>
+          </ul>
+
+          <ul class="footer__social">
+            <a href="https://www.linkedin.com/in/kaan-g%C3%BC%C3%A7l%C3%BC-126a232a6/" target="_blank" class="footer__social-link">
+              <i class='bx bxl-linkedin'></i>
+            </a>
+
+            <a href="https://github.com/kguclu1054" target="_blank" class="footer__social-link">
+              <i class='bx bxl-github' ></i>
+            </a>
+
+          </ul>
+
+          <span class="footer__copy">
+            ©Copyright Kaan Guclu. All rights reserved
+          </span>
+        </div>
+    </footer>
+
+    <a href="" class="scrollup" id="scroll-up">
+      <i class='bx bx-up-arrow-alt' ></i>
+    </a>
+   <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="app.js"></script>
+    <script>
+  type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+
+<script>
+  function sendMail(){
+   (function(){
+    emailjs.init("Ej1BYm8eLh1dppZ6B");
+   })();
+
+   var paramas = {
+     contactForm: document.getElementById('contact-form'),
+   contactName : document.getElementById('contact-name'),
+   contactEmail : document.getElementById('contact-email'),
+   contactProject : document.getElementById('contact-project'),
+   contactMessage: document.getElementById('contact-message')
+   };
+
+   var serviceID= "service_u4125ld";
+  var tempateID ="template_xkc0rvh";
+
+  emailjs.send(serviceID, tempateID, paramas)
+  .then( res => {
+    alert("Email Sent Successfully");
+  })
+  .catch();
+  }
+  </script>
+  
+<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+<script>
+
+  window.sr = new ScrollReveal()
+
+  sr.reveal('.header',{
+    delay: 1000
+  });
+  sr.reveal('.home__perfil',{
+    delay: 600,
+    distance: "60px",
+    scale: 0.8,
+  });
+
+  sr.reveal('.home__title',{
+    delay: 900,
+    distance: "60px",
+    origin: "left"
+  });
+
+  sr.reveal('.home__social',{
+    delay: 600,
+    distance: "60px",
+    origin: "left"
+  });
+
+  sr.reveal('.home__info-title',{
+    delay: 300,
+    distance: "60px",
+    origin: "left"
+  });
+
+  sr.reveal('.home__info-description',{
+    delay: 1000,
+    opacity:0,
+    origin: "right",
+    distance:"50px"
+  });
+
+  sr.reveal('.services__card',{
+    interval:500,
+    opacity:0,
+    rotate: {x:10, y:10, z:14}
+  });
+
+  sr.reveal('.home__info-number',{
+    interval:300,
+    opacity:0,
+    rotate: {x:10, y:10, z:14}
+  });
+
+  sr.reveal('.skills__data',{
+    interval:700,
+    opacity:0,
+    rotate: {x:60, y:20, z:60}
+  });
+
+  sr.reveal('.skills__title',{
+    delay: 300,
+    opacity:0,
+    origin: "right",
+    distance:"50px"
+  });
+
+  sr.reveal('.section__subtitle',{
+    delay: 300,
+    distance: "60px",
+    origin: "right"
+  });
+
+  sr.reveal('.section__title',{
+    delay: 1000,
+    distance: "60px",
+    origin: "top"
+  });
+
+  sr.reveal('.qualification__info',{
+    interval:700,
+    opacity:0,
+    rotate: {x:60, y:20, z:60}
+  });
+
+  sr.reveal('.qualification__info2',{
+    interval:1000,
+    opacity:0,
+    rotate: {x:-60, y:-20, z:-60}
+  });
+
+  sr.reveal('.panel',{
+    interval:300,
+    opacity:0,
+    rotate: {x:-60, y:-20, z:-60}
+  });
+
+ 
+
+  
+</script>
+</body>
+</html>
